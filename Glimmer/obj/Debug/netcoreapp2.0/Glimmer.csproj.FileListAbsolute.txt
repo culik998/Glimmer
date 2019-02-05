@@ -20,3 +20,14 @@ C:\Users\User\Desktop\Glimmer\Glimmer\bin\Debug\netcoreapp2.0\Glimmer.runtimecon
 C:\Users\User\Desktop\Glimmer\Glimmer\bin\Debug\netcoreapp2.0\Glimmer.runtimeconfig.dev.json
 C:\Users\User\Desktop\Glimmer\Glimmer\bin\Debug\netcoreapp2.0\Glimmer.dll
 C:\Users\User\Desktop\Glimmer\Glimmer\bin\Debug\netcoreapp2.0\Glimmer.pdb
+C:\Users\SuleymanSHs\Desktop\Glimmer\Glimmer\bin\Debug\netcoreapp2.0\Glimmer.deps.json
+C:\Users\SuleymanSHs\Desktop\Glimmer\Glimmer\bin\Debug\netcoreapp2.0\Glimmer.runtimeconfig.json
+C:\Users\SuleymanSHs\Desktop\Glimmer\Glimmer\bin\Debug\netcoreapp2.0\Glimmer.runtimeconfig.dev.json
+C:\Users\SuleymanSHs\Desktop\Glimmer\Glimmer\bin\Debug\netcoreapp2.0\Glimmer.dll
+C:\Users\SuleymanSHs\Desktop\Glimmer\Glimmer\bin\Debug\netcoreapp2.0\Glimmer.pdb
+C:\Users\SuleymanSHs\Desktop\Glimmer\Glimmer\obj\Debug\netcoreapp2.0\Glimmer.csprojResolveAssemblyReference.cache
+C:\Users\SuleymanSHs\Desktop\Glimmer\Glimmer\obj\Debug\netcoreapp2.0\Glimmer.csproj.CoreCompileInputs.cache
+C:\Users\SuleymanSHs\Desktop\Glimmer\Glimmer\obj\Debug\netcoreapp2.0\Glimmer.AssemblyInfoInputs.cache
+C:\Users\SuleymanSHs\Desktop\Glimmer\Glimmer\obj\Debug\netcoreapp2.0\Glimmer.AssemblyInfo.cs
+C:\Users\SuleymanSHs\Desktop\Glimmer\Glimmer\obj\Debug\netcoreapp2.0\Glimmer.dll
+C:\Users\SuleymanSHs\Desktop\Glimmer\Glimmer\obj\Debug\netcoreapp2.0\Glimmer.pdb

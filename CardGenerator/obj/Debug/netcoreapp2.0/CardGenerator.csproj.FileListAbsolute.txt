@@ -1,0 +1,11 @@
+C:\Users\SuleymanSHs\Desktop\Glimmer\CardGenerator\obj\Debug\netcoreapp2.0\CardGenerator.csprojResolveAssemblyReference.cache
+C:\Users\SuleymanSHs\Desktop\Glimmer\CardGenerator\obj\Debug\netcoreapp2.0\CardGenerator.csproj.CoreCompileInputs.cache
+C:\Users\SuleymanSHs\Desktop\Glimmer\CardGenerator\obj\Debug\netcoreapp2.0\CardGenerator.AssemblyInfoInputs.cache
+C:\Users\SuleymanSHs\Desktop\Glimmer\CardGenerator\obj\Debug\netcoreapp2.0\CardGenerator.AssemblyInfo.cs
+C:\Users\SuleymanSHs\Desktop\Glimmer\CardGenerator\bin\Debug\netcoreapp2.0\CardGenerator.deps.json
+C:\Users\SuleymanSHs\Desktop\Glimmer\CardGenerator\bin\Debug\netcoreapp2.0\CardGenerator.runtimeconfig.json
+C:\Users\SuleymanSHs\Desktop\Glimmer\CardGenerator\bin\Debug\netcoreapp2.0\CardGenerator.runtimeconfig.dev.json
+C:\Users\SuleymanSHs\Desktop\Glimmer\CardGenerator\bin\Debug\netcoreapp2.0\CardGenerator.dll
+C:\Users\SuleymanSHs\Desktop\Glimmer\CardGenerator\bin\Debug\netcoreapp2.0\CardGenerator.pdb
+C:\Users\SuleymanSHs\Desktop\Glimmer\CardGenerator\obj\Debug\netcoreapp2.0\CardGenerator.dll
+C:\Users\SuleymanSHs\Desktop\Glimmer\CardGenerator\obj\Debug\netcoreapp2.0\CardGenerator.pdb
