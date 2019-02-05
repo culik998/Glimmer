@@ -1,0 +1,368 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- Specific Meta
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="glimmer is a modern presentation HTML5 Blog template.">
+    <meta name="keywords" content="HTML5, Template, Design, Development, Blog" />
+    <meta name="author" content="">
+
+    <title>@ViewBag.Title</title>
+    <link rel="shortcut icon" href="~/images/favicon.png">
+    <link rel="apple-touch-icon" href="~/images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="~/images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="~/images/apple-touch-icon-114x114.png">
+
+    <!-- Custom Font
+    ================================================== -->
+    <link href='https://fonts.googleapis.com/css?family=Playfair+Display:400,400italic,700,700italic%7CLato:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="~/fonts/font-awsome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="~/fonts/glimmer/glimmer-shape.css">
+
+    <!-- CSS
+    =====================================
+       ============= -->
+    <link rel="stylesheet" href="~/lib/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="~/lib/magnific-popup/magnific-popup.css">
+    <link rel="stylesheet" href="~/lib/justifiedgallery/justifiedGallery.min.css">
+    <link rel="stylesheet" href="~/css/owl.carousel.css">
+    <link rel="stylesheet" href="~/css/style.css">
+    <link rel="stylesheet" href="~/colors/color-schemer.css">
+
+    <!-- Modernizr
+    ================================================== -->
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+</head>
+<body>
+    <header id="masthead" class="site-header">
+        <!-- Header Top Part -->
+        <div id="header-top">
+            <div class="container">
+                <div class="row">
+                    <div class="header-search">
+                        <div class="search default">
+                            <form method="get" action="#" class="searchform">
+                                <div class="input-group">
+                                    <input type="search" value="Search..." class="form-control" name="s" id="dsearch">
+                                    <span class="input-group-btn">
+                                        <button id="submit-btn" type="button" class="btn btn-default"><i class="fa fa-search"></i></button>
+                                    </span>
+                                </div>
+                            </form>
+                        </div> <!-- /.search -->
+                    </div> <!-- /.header-search -->
+
+                    <div class="header-social">
+                        <a target="_blank" href="#"><i class="fa fa-facebook"></i></a>
+                        <a target="_blank" href="#"><i class="fa fa-twitter"></i></a>
+                        <a target="_blank" href="#"><i class="fa fa-behance"></i></a>
+                        <a target="_blank" href="#"><i class="fa fa-google-plus"></i></a>
+                        <a target="_blank" href="#"><i class="fa fa-pinterest-p"></i></a>
+                        <a target="_blank" href="#"><span class="fa fa-instagram"></span></a>
+                        <a target="_blank" href="#"><span class="fa fa-dribbble"></span></a>
+                    </div> <!-- /.top-social -->
+                </div> <!-- /.row -->
+            </div> <!-- /.container -->
+        </div> <!-- /#header-top -->
+        <!-- Header Middle Part-->
+        <div id="header-middle">
+            <div class="container">
+                <div class="row">
+                    <!-- Navigation Left -->
+                    <nav id="nav-left" class="site-navigation top-navigation">
+                        <div class="menu-wrapper">
+                            <div class="menu-content">
+                                <ul class="menu-list">
+                                    <li>
+                                        <a href="index02.html" class="active">Home</a>
+                                        <ul class="menu-submenu">
+                                            <li>
+                                                <a href="#">Standard Layout</a>
+                                                <ul class="menu-submenu">
+                                                    <li>
+                                                        <a href="index02-sidebarleft.html">Left Sidebar</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="index02.html">Right Sidebar</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="index02-full.html">Full Width</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <a href="#">Grid Layout</a>
+                                                <ul class="menu-submenu">
+                                                    <li>
+                                                        <a href="index01-sidebarleft.html">Left Sidebar</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="index01.html">Right Sidebar</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="index01-full.html">Full Width</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#">Features</a>
+                                        <ul class="menu-submenu">
+                                            <li>
+                                                <a href="#">Single Post Layout</a>
+                                                <ul class="menu-submenu">
+                                                    <li><a href="post-right-sidebar.html">Right Sidebar</a></li>
+                                                    <li><a href="post-left-sidebar.html">Left Sidebar</a></li>
+                                                    <li><a href="post-full.html">Full Width</a></li>
+                                                    <li><a href="post-full-two.html">Full Width Two</a></li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <a href="#">Gallery</a>
+                                                <ul class="menu-submenu">
+                                                    <li><a href="single-gallery-one.html">Gallery One</a></li>
+                                                    <li><a href="single-gallery-two.html">Gallery Two</a></li>
+                                                    <li><a href="single-gallery-justified.html">Gallery Justified</a></li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <a href="#">Category Page</a>
+                                                <ul class="menu-submenu">
+                                                    <li><a href="category-one.html">Category Page Normal</a></li>
+                                                    <li><a href="category-two-col.html">Category Page Grid</a></li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <a href="#">About Me Page</a>
+                                                <ul class="menu-submenu">
+                                                    <li><a href="about.html">About Me One</a></li>
+                                                    <li><a href="about-two.html">About Me Two</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="index-preloader.html">Preloader Version</a></li>
+                                            <li><a href="contact.html">Contact Form</a></li>
+                                            <li><a href="404.html">404 Page</a></li>
+                                            <li><a href="all-widget-post.html">All Widget And Post-Format</a></li>
+                                            <li>
+                                                <a href="#">Submenu</a>
+                                                <ul class="menu-submenu">
+                                                    <li>
+                                                        <a href="#">Submenu One</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Submenu Two</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Submenu Three</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Submenu Four</a>
+                                                        <ul class="menu-submenu">
+                                                            <li>
+                                                                <a href="#">Submenu One Sub</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">Submenu Two Sub</a>
+                                                                <ul class="menu-submenu">
+                                                                    <li>
+                                                                        <a href="#">Submenu One Sub</a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="#">Submenu Two Sub</a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="#">Submenu Three Sub</a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="#">Submenu item 4 Sub</a>
+                                                                    </li>
+                                                                </ul>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">Submenu Four Sub</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">Submenu Five Sub</a>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#">Post Format</a>
+                                        <ul class="menu-submenu">
+                                            <li><a href="single-image.html">Image</a></li>
+                                            <li><a href="single-Video.html">Video</a></li>
+                                            <li><a href="all-widget-post.html#audio-format">Audio</a></li>
+                                            <li><a href="single-gallery-one.html">Gallery</a></li>
+                                            <li><a href="all-widget-post.html#link-format">Link</a></li>
+                                            <li><a href="all-widget-post.html#status-format">Status</a></li>
+                                            <li><a href="all-widget-post.html#quote-format">Quote</a></li>
+                                            <li><a href="single-chat.html">Chat</a></li>
+                                            <li><a href="all-widget-post.html#aside-format">Aside</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="category-one.html">Travel</a></li>
+                                </ul>
+                            </div>
+                        </div> <!-- /.menu-wrapper -->
+                    </nav> <!-- /#nav-left -->
+                    <!-- Site Logo -->
+                    <div id="site-logo">
+                        <a href="index02.html" class="site-logo">
+                            <img alt="logo" src="images/glimmer-logo.png">
+                        </a>
+                    </div> <!-- /#site-logo -->
+                    <!-- Navigation Right -->
+                    <nav id="nav-right" class="site-navigation top-navigation menu-right">
+                        <div class="menu-wrapper">
+                            <div class="menu-content">
+                                <ul class="menu-list">
+                                    <li><a href="category-one.html">Lifestyle</a></li>
+                                    <li>
+                                        <a href="#">Music</a>
+                                        <ul class="menu-submenu">
+                                            <li>
+                                                <a href="#">Submenu One</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Submenu Two</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Submenu Three</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Submenu Four</a>
+                                                <ul class="menu-submenu">
+                                                    <li>
+                                                        <a href="#">Submenu One Sub</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Submenu Two Sub</a>
+                                                        <ul class="menu-submenu">
+                                                            <li>
+                                                                <a href="#">Submenu One Sub</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">Submenu Two Sub</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">Submenu Three Sub</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">Submenu item 4 Sub</a>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Submenu Four Sub</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Submenu Five Sub</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="about.html">About Me</a></li>
+                                    <li><a href="contact.html">Contact Us</a></li>
+                                </ul>
+                            </div>
+                        </div> <!-- /.menu-wrapper -->
+                    </nav> <!-- /#nav-right -->
+                </div> <!-- /.row -->
+            </div> <!-- /.container -->
+        </div> <!-- /#header-middle -->
+        <!-- Mobile Menu -->
+        <div class="menucontent overlapblackbg"></div>
+        <div class="menuexpandermain slideRight">
+            <a id="navToggle" class="animated-arrow slideLeft"><span></span></a>
+            <span id="menu-marker">Menu</span>
+        </div>
+
+        <div id="mobile-menu">
+            <nav class="top-menu slideLeft clearfix">
+                <div class="menu-wrapper">
+                    <div class="container">
+                        <div class="row" id="mobile-menu-wrap"></div>
+                    </div>
+                </div> <!-- /.menu-wrapper -->
+            </nav> <!-- /.menu  -->
+        </div> <!-- /.#mobile menu -->
+    </header> <!-- /.site-header -->
+
+    <div>
+        @RenderBody()
+    </div>
+
+    <footer id="colophon" class="site-footer">
+        <div id="footer-top">
+            <div class="container">
+                <div class="widget clearfix">
+                    <div class="widget-title-area">
+                        <h5 class="widget-title"><span>Follow us on Instagram</span></h5> <!-- /.widget-title -->
+                    </div> <!-- /.widget-title-area -->
+                    <div id="instafeed"></div> <!-- /.instafeed-content -->
+                </div> <!-- /.glimmer_about_widget -->
+            </div>
+        </div> <!-- #footer-top" -->
+
+        <div id="footer-middle">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="widget widget_text clearfix">
+                            <div class="widget-title-area">
+                                <h5 class="widget-title"><span>About</span></h5> <!-- /.widget-title -->
+                            </div> <!-- /.widget-title-area -->
+                            <div class="widget-about">
+                                <p>
+                                    <img alt="logo" class="about-logo" src="images/glimmer-logo.png">
+                                </p>
+                                <p>Mauris id sapien ante. Praesent vulputate the feugiat quam. Duis aliquam nisl non tellus skip ullamcorper, eget blandit nunc suscipit.</p>
+                            </div>
+                        </div> <!-- /.widget_about_and_contact -->
+                    </div> <!-- /.col-md-4 -->
+
+                    <div class="col-md-4">
+                        <div class="widget widget_subscribe clearfix">
+                            <div class="widget-title-area">
+                                <h5 class="widget-title"><span>Twitter Feed</span></h5> <!-- /.widget-title -->
+                            </div>
+
+                            <div id="twitter_profile_embed"></div>
+
+                        </div> <!-- /.widget_about_and_contact -->
+                    </div> <!-- /.col-md-4 -->
+
+                    <div class="col-md-4">
+                        <div class="widget widget_flicker clearfix">
+                            <div class="widget-title-area">
+                                <h5 class="widget-title"><span>Flicker Images</span></h5> <!-- /.widget-title -->
+                            </div> <!-- /.widget-title-area -->
+                            <div id="flickr"></div>
+                        </div> <!-- /.widget_about_and_contact -->
+                    </div> <!-- /.col-md-4 -->
+                </div> <!-- /.row -->
+            </div> <!-- /.container -->
+        </div> <!-- #footer-middle -->
+
+        <div id="footer-bottom">
+            <div class="container">
+                <div class="copyright">
+                    <p>Copyright&copy; 2015 Softhopper. All right reserved.</p>
+                </div> <!-- /.copyright -->
+            </div> <!-- /.container -->
+        </div> <!-- /#footer-bottom -->
+
+    </footer><!-- #colophon -->
+</body>
+</html>
